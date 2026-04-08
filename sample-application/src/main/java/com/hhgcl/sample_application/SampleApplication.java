@@ -3,11 +3,9 @@ package com.hhgcl.sample_application;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.hhgcl")
 public class SampleApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(SampleApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(SampleApplication.class, args);
+    }
 }

@@ -1,0 +1,5 @@
+# core-security-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports
+com.hhgcl.core_security_starter.SecurityConfig
+com.hhgcl.core_security_starter.JwtTokenProvider
+com.hhgcl.core_security_starter.AuthEntryPoint
+com.hhgcl.core_security_starter.AccessDeniedHandlerImpl
